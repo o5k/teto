@@ -1,0 +1,35 @@
+#   _______________________________
+#  /__  ___  _________  ___  ___  /
+#    / /  / /__      / /  / /  / / 
+#   / /  / ___/     / /  / /  / /  
+#  / /  / /________/ /  / /__/ /   
+# /_/  /____________/  /______/    
+#_____________________________________________________________________
+
+# Your Twitter OAuth credentials
+consumer_key=
+consumer_secret=
+access_token=
+access_secret=
+
+# The location of the picture library
+library_folder=
+
+# Tweet text. You can use the following codes:
+# +---------------+---------------+---------------------------------------------+
+# |Key            |Example        |Explanation                                  |
+# +---------------+---------------+---------------------------------------------+
+# |{FILENAME_FULL}|68948621_p0.png|Full filename                                |
+# |{FILENAME}     |68948621_p0    |Filename                                     |
+# |{PIXIVID}      |68948621       |Filename up to the first _ (useful for Pixiv)|    
+# +---------------+---------------+---------------------------------------------+
+tweet_text=
+
+# Schedule. Cron style, the parameters are checked every minute to match.
+# * matches any, commas are allowed.
+schedule_y=*
+schedule_mo=*
+schedule_dow=*
+schedule_d=*
+schedule_h=*
+schedule_m=0, 15, 30, 45
